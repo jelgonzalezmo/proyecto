@@ -9,8 +9,15 @@
  * @author Estudiante
  */
 public class x {
+   static int suma (int a){return a+10;}
 public static void main (String  [] arg) {
-System.out.println("hola mundo");
-System.out.println("hola jenny");
-System.out.println("Hola Felipe! :3");
+   
+    java.util.Scanner teclado = new java.util.Scanner(System.in); 
+    System.out.println("Escribe un numero");
+    int a =teclado.nextInt();
+    int suma = suma(a);
+    System.out.println(suma);
+    System.out.println("Hola Felipe Y Jenny! :3");
 }}
+
+
